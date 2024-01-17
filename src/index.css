@@ -1,13 +1,59 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: pink;
+}
+.header {
+  background-image: url("https://www.youloveit.ru/uploads/posts/2013-09/1378900491_youloveit_ru_kot_pusheen_lublu_kotikov01.gif");
+  height: 20vh;
+  width: 1300px;
+}
+.delete_btn {
+  background-color: peachpuff;
+  border-color: pink;
+}
+.edit_btn {
+  background-color: rgb(101, 101, 151);
+  margin-left: 7px;
+  border: rgb(0, 0, 204);
+}
+.input_add {
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  background-image: url("https://www.youloveit.ru/uploads/posts/2013-09/1378900491_youloveit_ru_kot_pusheen_lublu_kotikov01.gif");
+}
+.input_add:focus {
+  background: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.p {
+  font-family: fantasy;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+.todo {
+  margin-bottom: 1rem;
+}
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(208, 107, 107);
+  padding: 1rem;
+}
+li {
+  list-style: none;
 }
